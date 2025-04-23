@@ -3,7 +3,7 @@ package net.minecraftfr.roleplaychat.chatTypeMessage;
 import net.minecraft.server.network.ServerPlayerEntity;
 
 public class SpeakMessage extends MessageType {
-  public static final int RADIUS = 30;
+  public static final int RADIUS = 100;
   public static final int COLOR = 0xFFFFFF;
   public static final String CHARACTER = null;
   public static final String COMMAND = "speak";
